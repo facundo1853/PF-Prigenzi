@@ -1,0 +1,44 @@
+.main_sobremi{
+    background: $lightpurple;
+    color: $color-titulos;
+    -webkit-text-stroke: 0.5px black;
+    display: flex;
+    flex-direction: column;
+    .main__container_sobremi{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__titulo_sobremi{
+    background: $bg-color-box;
+    margin: 1% auto;
+    padding: 1%;
+    border: $basic-border;
+    border-radius: 10px;
+    transition: all 1s;
+    &:hover{
+    background-color: $second-color;
+    border: $hover-border;
+    -webkit-text-stroke: $estilobasico-bordes-letras;
+}
+}
+
+.main__parrafo_sobremi{
+    color: black;
+    background: $bg-color-box;
+    margin: 1% auto;
+    padding: 1%;
+    border: $basic-border;
+    border-radius: 10px;
+    transition: all 1s;
+    &:hover{
+    background-color: $second-color;
+    border: $hover-border;
+    -webkit-text-stroke: $estilobasico-bordes-letras;
+    color: $color-titulos;
+}
+}
+}
